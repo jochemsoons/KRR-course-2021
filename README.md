@@ -35,19 +35,19 @@ This is the schedule of lectures, together with the topics of the lectures. All 
 
 - Week 1:
   - Monday May 31, 11:00–13:00: *Introduction, combinatorial problems, basics of complexity theory*
-  - Tuesday June 1, 11:00–13:00: *Introduction to Answer Set Programming (ASP)*
-  - Thursday June 3, 13:00–15:00: *Propositional satisfiability (SAT), propagation search algorithms*
+  - Tuesday June 1, 11:00–13:00: *Introduction to Answer Set Programming (ASP) &ndash; Part 1*
+  - Thursday June 3, 13:00–15:00: *Introduction to Answer Set Programming (ASP) &ndash; Part 2*, *Propositional satisfiability (SAT)*
 - Week 2:
   - Monday June 7, 11:00–13:00: *Problem modelling in ASP*
   - Tuesday June 8, 11:00–13:00: *More ASP features*
   - Thursday June 10, 13:00–15:00: *Further ASP modelling*
 - Week 3:
-  - Monday June 14, 11:00–13:00: *Modelling complex problems in ASP*
+  - Monday June 14, 11:00–13:00: *Algorithms: search and propagation*
   - Tuesday June 15, 11:00–13:00: *Advanced ASP technique: saturation*
   - Thursday June 17, 13:00–15:00: *Q&A session*
 - Week 4:
-  - Monday June 21, 11:00–13:00: *More complexity theory and connections to ASP*
-  - Tuesday June 22, 11:00–13:00: *Conflict-driven search*
+  - Monday June 21, 11:00–13:00: *TBA*
+  - Tuesday June 22, 11:00–13:00: *TBA*
   - Wednesday June 23, 13:00–15:00: *Q&A session*
 
 

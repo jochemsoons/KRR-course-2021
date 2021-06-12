@@ -121,6 +121,34 @@ Take a variant of the [job shop scheduling](https://en.wikipedia.org/wiki/Job_sh
 
 Take a variant of the [open shop scheduling](https://en.wikipedia.org/wiki/Open-shop_scheduling) problem, and find solutions of minimum [makespan](https://en.wikipedia.org/wiki/Makespan).
 
+## D.
+
+### D.1. Selecting a subgraph while maintaining reachability
+
+*Input:* an undirect graph *G = (V,E)*, several pairs *(v<sub>1</sub>,u<sub>1</sub>),...,(v<sub>n</sub>,u<sub>n</sub>)* of vertices, and a positive integer *k*.
+
+*Solutions:* subgraphs *G'* consisting of *V* and exactly *k* edges of *E* such that for each pair *(v<sub>i</sub>,u<sub>i</sub>)* it holds that *u<sub>i</sub>* is reachable from *v<sub>i</sub>* in *G'*.
+
+*Note:* this exercise involves using a (recursively defined) predicate to keep track of reachability in the subgraph *G'*.
+
+### D.2. Combinatorial auctions
+
+*Input:* a set *I* of items, and a set of bids, each consisting of a subset *J &subseteq; I* of items and a profit *p* (a positive integer). (The bids are offers for selling the items in *J* together for profit *p*.)
+
+*Solutions:* a subset of bids that are mutually consistent (that is, bids involving separate subsets of items) that lead to a maximum combined profit.
+
+*Note:* this exercise involves using the aggregate `#sum` as well as an optimization statement.
+
+### D.3. Shortest task schedule
+
+*Input:* a set *T* of tasks to perform, a positive integer *k* describing how many tasks per day can be done, and a set *P = {(t<sub>1</sub>,i<sub>1</sub>),...,(t<sub>m</sub>,i<sub>m</sub>)}* of pairs stating that task *t<sub>j</sub>* may not be done on day *i<sub>j</sub>*.
+
+*Solutions:* a schedule of minimum length (i.e., a minimum number of days) for which tasks to do on which day, so that each task is done on exactly one day, and such that for each pair *(t<sub>j</sub>,i<sub>j</sub>) &in; P* it holds that task *t<sub>j</sub>* is done on a different day than day *i<sub>j</sub>*.
+
+*Note 1:* this exercise involves an optimization statement.
+
+*Note 2:* an [example solution](./example%20solutions/shortest-task-schedule.lp) for this exercise is available.
+
 <!--
 ## Problems related to games
 - chess position legal after k moves
@@ -138,6 +166,8 @@ Take a variant of the [open shop scheduling](https://en.wikipedia.org/wiki/Open-
 - bounded-size CFG consistent with pos. and neg. words
 
 ## Other problems
+- Rural postman / Chinese postman
 - X3C
 - Set cover
+- Abstract argumentation: conflict-free, admissible, complete, stable -- https://en.wikipedia.org/wiki/Argumentation_framework
 -->

@@ -151,6 +151,7 @@ def check_num_solutions(sudoku, k, num_solutions, solver):
     # and add their string representations to a set
     solution_set = set()
     for solution in itertools.islice(solver(sudoku, k), num_solutions+1):
+        print(solution)
         if not check_solution(sudoku, k, solution):
             return False
         solution_set.add(pretty_repr(solution, k))
